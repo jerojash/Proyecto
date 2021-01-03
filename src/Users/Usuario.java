@@ -8,52 +8,8 @@ public abstract class Usuario {
         protected String nombre, apellido, usuario, password;
         
     //Metodos
+        public abstract void pedirPrestamo();
         
-        public void revisarPedidosP(){
-            
-        }
-        
-        public void autorizarPrestamos(){
-            
-        }
-        
-        public void rechazarPrestamo(){
-            
-        }
-        
-        public void recibir(){
-            
-        }
-        
-        public void agregarBien(){
-            
-        }
-        
-        public void editarDatos(){
-            
-        }
-        
-        public void mostrarDatos(){
-            
-        }
-        
-        public void acceder(){
-            
-        }
-        
-        public void registrar(){
-            
-        }
-        
-        public void salir(){
-            
-        }
-        
-        public void editarPerfil(){
-            
-        }
-        
-        public abstract void mostrarPerfil();
-            
+        public abstract void devolver();    
         
 }

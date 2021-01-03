@@ -2,7 +2,7 @@
 package Users;
 
 
-public class Estudiante extends Usuario implements Educacion{
+public class Estudiante extends Usuario{
     //Metodos
         public void mostrarPerfil(){
             
@@ -12,7 +12,7 @@ public class Estudiante extends Usuario implements Educacion{
             
         };
         
-        public void devolder(){
+        public void devolver(){
             
         };
 }

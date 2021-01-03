@@ -1,7 +1,7 @@
 
 package Users;
 
-public class Profesor extends Usuario implements Educacion {
+public class Profesor extends Usuario{
     
     
     //Metodos
@@ -13,7 +13,7 @@ public class Profesor extends Usuario implements Educacion {
             
         };
         
-        public void devolder(){
+        public void devolver(){
             
         };
 }
